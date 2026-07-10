@@ -53,3 +53,27 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ROOT VARIABLES */
+
+:root {
+
+    /* COLOR PALETTE */
+
+    --teal: #4ca7c0;
+    --purple: #484fb7;
+    --lavender: #6b8fe7;
+    --yellow: #e9bb57;
+    --pink: #d9526f;
+    --dark-gray: #1e1e1e;
+    --white: #ffffff;
+
+    /* FONT STACK */
+
+    --fonts: 'Kavoon', 'Inter', sans-serif;
+
+
+}
+
+
+/* GLOBAL STYLES */

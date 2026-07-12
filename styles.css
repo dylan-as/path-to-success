@@ -281,6 +281,24 @@ td {
 	box-shadow: none;
 }
 
+/* footer styles */
+
+footer {
+	color: var(--white);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+footer a {
+	color: var(--white);
+}
+
+footer a:hover {
+	color: var(--purple);
+}
+
 
 
 

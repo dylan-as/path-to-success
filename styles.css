@@ -223,6 +223,30 @@ nav a {
 	border-radius: 10px;
 }
 
+/* table section styling */
+
+table {
+	margin: auto;
+	width: 60%;
+}
+
+table, th, td {
+	border: 1px solid;
+	border-color: var(--yellow);
+}
+
+th, td {
+	padding: 10px 10px;
+}
+
+th {
+	background-color: var(--yellow);
+	font-weight: bold;
+}
+
+td {
+	background-color: var(--white);
+}
 
 
 

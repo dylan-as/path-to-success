@@ -82,38 +82,97 @@ body {
 	margin: auto;
 }
 
+h1, h2 {
+	font-family: Kavoon;
+	color: var(--white);
+}
 
 h1 {
-	font-family: Kavoon;
 	font-size: 3em;
 }
 
 h2 {
-	font-family: Kavoon;
 	font-size: 2em;
+	padding: 10px 0px 5px;
 }
 
-nav h2 {
-	font-size: 1.5em;
-}
 
 h3 {
 	font-size: 1.5em;
+	color: var(--yellow);
+	font-weight: bold;
+	padding: 10px 0px;
 }
 
 h4 {
 	font-size: 1.15em;
+	color: var(--purple);
+	font-weight: bold;
 }
 
+/* header styling */
+
 header {
-	color: var(--white);
 	text-align: center;
-	padding: 30px 10px;
+	padding: 40px 10px;
 }
 header p {
 	font-style:italic;
+	color: var(--white);
+	padding: 10px;
 }
+
+/* navigation styling */
 
 nav {
-
+	background-color: var(--yellow);
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-transform: uppercase;
+	padding: 10px 10px;
 }
+
+nav h2 {
+	font-size: 1.5em;
+	font-family: Inter;
+	font-style: italic;
+	font-weight: bold;
+	color: var(--dark-gray);
+	padding: 10px;
+	
+}
+
+nav a {
+	font-family: Inter;
+	text-decoration: none;
+	color: var(--purple);
+	font-weight: bold;
+	background-color: var(--white);
+	width: 90%;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+/* add: hover styles 
+separate out: links touching each other */
+
+/* services section styling */
+
+#services {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#services section {
+	background-color: var(--white);
+	width: 90%;
+	margin: auto;
+	border-radius: 10px;
+	padding: 10px 0px;
+}
+
+
+
+

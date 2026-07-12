@@ -82,6 +82,16 @@ body {
 	margin: auto;
 }
 
+p {
+	line-height: 1.5;
+	padding: 10px 10px;
+}
+
+a {
+		text-decoration: none;
+		text-transform: uppercase;
+}
+
 h1, h2 {
 	font-family: Kavoon;
 	color: var(--white);
@@ -148,7 +158,6 @@ nav h2 {
 
 nav a {
 	font-family: Inter;
-	text-decoration: none;
 	color: var(--purple);
 	font-weight: bold;
 	background-color: var(--white);
@@ -158,7 +167,9 @@ nav a {
 	margin: 5px 0px;
 }
 
-/* add: hover styles */
+nav a:hover {
+	color: var(--lavender);
+}
 
 /* services section styling */
 
@@ -174,10 +185,6 @@ nav a {
 	border-radius: 10px;
 	margin: 10px auto;
 	padding: 20px 10px;
-}
-
-#services p {
-	line-height: 1.5;
 }
 
 /* why section styling */
@@ -246,6 +253,32 @@ th {
 
 td {
 	background-color: var(--white);
+}
+
+/* first step styling */
+
+#first-step {
+	background-color: var(--pink);
+	color: var(--white);
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#first-step a {
+	background-color: var(--white);
+	color: var(--dark-gray);
+	font-weight: bold;
+	border-radius: 10px;
+	padding: 10px 70px;
+	box-shadow: 5px 5px;
+}
+
+#first-step a:hover {
+	box-shadow: none;
 }
 
 

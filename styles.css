@@ -75,6 +75,11 @@ table {
 
 /* GLOBAL STYLES */
 
+body {
+	font-family: Inter;
+	background-color: var(--lavender);
+}
+
 h1 {
 	font-family: Kavoon;
 	font-size: 3em;

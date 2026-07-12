@@ -78,7 +78,10 @@ table {
 body {
 	font-family: Inter;
 	background-color: var(--lavender);
+	width: 450px;
+	margin: auto;
 }
+
 
 h1 {
 	font-family: Kavoon;
@@ -90,10 +93,27 @@ h2 {
 	font-size: 2em;
 }
 
+nav h2 {
+	font-size: 1.5em;
+}
+
 h3 {
 	font-size: 1.5em;
 }
 
 h4 {
 	font-size: 1.15em;
+}
+
+header {
+	color: var(--white);
+	text-align: center;
+	padding: 30px 10px;
+}
+header p {
+	font-style:italic;
+}
+
+nav {
+
 }

@@ -94,6 +94,7 @@ h1 {
 h2 {
 	font-size: 2em;
 	padding: 10px 0px 5px;
+	margin-left: 5px;
 }
 
 
@@ -102,6 +103,7 @@ h3 {
 	color: var(--yellow);
 	font-weight: bold;
 	padding: 10px 0px;
+	margin-left: 5px;
 }
 
 h4 {
@@ -156,8 +158,7 @@ nav a {
 	margin: 5px 0px;
 }
 
-/* add: hover styles 
-separate out: links touching each other */
+/* add: hover styles */
 
 /* services section styling */
 
@@ -171,9 +172,29 @@ separate out: links touching each other */
 	width: 90%;
 	margin: auto;
 	border-radius: 10px;
-	margin: 10px 0px;
+	margin: 10px auto;
 	padding: 20px 10px;
 }
+
+#services p {
+	line-height: 1.5;
+}
+
+/* why section styling */
+
+#why {
+	background-color: var(--pink);
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+
+
+
 
 
 

@@ -184,12 +184,45 @@ nav a {
 
 #why {
 	background-color: var(--pink);
+	padding: 10px;
 }
 
 #why div {
 	display: grid;
-	grid-template-columns: auto auto;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	text-align: center;
+	padding: 5px;
 }
+
+#why p {
+	padding: 30px 30px;
+	width: 50%;
+	color:#1e1e1e;
+	font-weight: bold;
+	margin: auto;
+}
+
+#personalized {
+	background-color: var(--teal);
+	border-radius: 10px;
+}
+
+#proven {
+	background-color: var(--lavender);
+	border-radius: 10px;
+}
+
+#supportive {
+	background-color: var(--yellow);
+	border-radius: 10px;
+}
+
+#flexible {
+	background-color: var(--white);
+	border-radius: 10px;
+}
+
 
 
 
